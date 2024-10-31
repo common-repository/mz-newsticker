@@ -1,0 +1,26 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+  .marquee-title{
+  	width: 10%;
+  	background: #000;
+  }
+  
+  
+  .marquee-title h2{  	   
+    margin: 0 !important;   
+  }
+ .marquee-title,.marquee-items{float: left;}
+ ..marquee-items{list-style: none}
+ .marquee-items li{display: inline-block;}
+ .marquee-items li a{
+text-decoration: none;
+box-shadow: none;
+padding: 15px;
+ 
+ }
+  .marquee-items li span,  .marquee-items li a{
+display: inline-block;
+  }
